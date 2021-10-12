@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		612D851083E8584BF7A5F467 /* Pods_VehicleTrackingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8057CD43DA36B3BD122DB631 /* Pods_VehicleTrackingApp.framework */; };
+		75D1C11A270472AF0016DA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D1C119270472AF0016DA5F /* AppDelegate.swift */; };
+		75D1C11C270472AF0016DA5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D1C11B270472AF0016DA5F /* SceneDelegate.swift */; };
+		75D1C11E270472AF0016DA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D1C11D270472AF0016DA5F /* ViewController.swift */; };
+		75D1C121270472AF0016DA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D1C11F270472AF0016DA5F /* Main.storyboard */; };
+		75D1C123270472B00016DA5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D1C122270472B00016DA5F /* Assets.xcassets */; };
+		75D1C126270472B00016DA5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D1C124270472B00016DA5F /* LaunchScreen.storyboard */; };
+		75D1C12E270474C30016DA5F /* BackgroundLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D1C12D270474C30016DA5F /* BackgroundLocationManager.swift */; };
+		75D1C130270477800016DA5F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75D1C12F270477800016DA5F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		348D716F4237691FA16B7C68 /* Pods-VehicleTrackingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VehicleTrackingApp.release.xcconfig"; path = "Target Support Files/Pods-VehicleTrackingApp/Pods-VehicleTrackingApp.release.xcconfig"; sourceTree = "<group>"; };
+		75D1C116270472AF0016DA5F /* VehicleTrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VehicleTrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D1C119270472AF0016DA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75D1C11B270472AF0016DA5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75D1C11D270472AF0016DA5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75D1C120270472AF0016DA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D1C122270472B00016DA5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D1C125270472B00016DA5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75D1C127270472B00016DA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D1C12D270474C30016DA5F /* BackgroundLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundLocationManager.swift; sourceTree = "<group>"; };
+		75D1C12F270477800016DA5F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8057CD43DA36B3BD122DB631 /* Pods_VehicleTrackingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VehicleTrackingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD521D00FA73064E642139C2 /* Pods-VehicleTrackingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VehicleTrackingApp.debug.xcconfig"; path = "Target Support Files/Pods-VehicleTrackingApp/Pods-VehicleTrackingApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D1C113270472AF0016DA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612D851083E8584BF7A5F467 /* Pods_VehicleTrackingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C80E5B99A114C0347B2A375 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD521D00FA73064E642139C2 /* Pods-VehicleTrackingApp.debug.xcconfig */,
+				348D716F4237691FA16B7C68 /* Pods-VehicleTrackingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75D1C10D270472AF0016DA5F = {
+			isa = PBXGroup;
+			children = (
+				75D1C118270472AF0016DA5F /* VehicleTrackingApp */,
+				75D1C117270472AF0016DA5F /* Products */,
+				4C80E5B99A114C0347B2A375 /* Pods */,
+				B5D807F6AADE4C47BFE9C44C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75D1C117270472AF0016DA5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D1C116270472AF0016DA5F /* VehicleTrackingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D1C118270472AF0016DA5F /* VehicleTrackingApp */ = {
+			isa = PBXGroup;
+			children = (
+				75D1C12D270474C30016DA5F /* BackgroundLocationManager.swift */,
+				75D1C119270472AF0016DA5F /* AppDelegate.swift */,
+				75D1C11B270472AF0016DA5F /* SceneDelegate.swift */,
+				75D1C11D270472AF0016DA5F /* ViewController.swift */,
+				75D1C11F270472AF0016DA5F /* Main.storyboard */,
+				75D1C122270472B00016DA5F /* Assets.xcassets */,
+				75D1C124270472B00016DA5F /* LaunchScreen.storyboard */,
+				75D1C127270472B00016DA5F /* Info.plist */,
+				75D1C12F270477800016DA5F /* GoogleService-Info.plist */,
+			);
+			path = VehicleTrackingApp;
+			sourceTree = "<group>";
+		};
+		B5D807F6AADE4C47BFE9C44C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8057CD43DA36B3BD122DB631 /* Pods_VehicleTrackingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D1C115270472AF0016DA5F /* VehicleTrackingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D1C12A270472B00016DA5F /* Build configuration list for PBXNativeTarget "VehicleTrackingApp" */;
+			buildPhases = (
+				9726EA3F91CDC4CD868CB77C /* [CP] Check Pods Manifest.lock */,
+				75D1C112270472AF0016DA5F /* Sources */,
+				75D1C113270472AF0016DA5F /* Frameworks */,
+				75D1C114270472AF0016DA5F /* Resources */,
+				337B47CF20E81638A8CE7586 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VehicleTrackingApp;
+			productName = VehicleTrackingApp;
+			productReference = 75D1C116270472AF0016DA5F /* VehicleTrackingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D1C10E270472AF0016DA5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					75D1C115270472AF0016DA5F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 75D1C111270472AF0016DA5F /* Build configuration list for PBXProject "VehicleTrackingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D1C10D270472AF0016DA5F;
+			productRefGroup = 75D1C117270472AF0016DA5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D1C115270472AF0016DA5F /* VehicleTrackingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D1C114270472AF0016DA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D1C126270472B00016DA5F /* LaunchScreen.storyboard in Resources */,
+				75D1C130270477800016DA5F /* GoogleService-Info.plist in Resources */,
+				75D1C123270472B00016DA5F /* Assets.xcassets in Resources */,
+				75D1C121270472AF0016DA5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		337B47CF20E81638A8CE7586 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VehicleTrackingApp/Pods-VehicleTrackingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VehicleTrackingApp/Pods-VehicleTrackingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VehicleTrackingApp/Pods-VehicleTrackingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9726EA3F91CDC4CD868CB77C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VehicleTrackingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D1C112270472AF0016DA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D1C11E270472AF0016DA5F /* ViewController.swift in Sources */,
+				75D1C11A270472AF0016DA5F /* AppDelegate.swift in Sources */,
+				75D1C12E270474C30016DA5F /* BackgroundLocationManager.swift in Sources */,
+				75D1C11C270472AF0016DA5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75D1C11F270472AF0016DA5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D1C120270472AF0016DA5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D1C124270472B00016DA5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D1C125270472B00016DA5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D1C128270472B00016DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75D1C129270472B00016DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D1C12B270472B00016DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD521D00FA73064E642139C2 /* Pods-VehicleTrackingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUHX87MKRN;
+				INFOPLIST_FILE = VehicleTrackingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VehicleTrackingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75D1C12C270472B00016DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348D716F4237691FA16B7C68 /* Pods-VehicleTrackingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUHX87MKRN;
+				INFOPLIST_FILE = VehicleTrackingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VehicleTrackingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D1C111270472AF0016DA5F /* Build configuration list for PBXProject "VehicleTrackingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D1C128270472B00016DA5F /* Debug */,
+				75D1C129270472B00016DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D1C12A270472B00016DA5F /* Build configuration list for PBXNativeTarget "VehicleTrackingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D1C12B270472B00016DA5F /* Debug */,
+				75D1C12C270472B00016DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D1C10E270472AF0016DA5F /* Project object */;
+}

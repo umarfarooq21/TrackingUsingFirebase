@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>627387576390-jto06vfrgdvvbnemuqhoitkq1ufh7c2u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.627387576390-jto06vfrgdvvbnemuqhoitkq1ufh7c2u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA0VCkf-2haNxnyRpXuc-enx9ff09ZY4H8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>627387576390</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.VehicleTrackingApp</string>
+	<key>PROJECT_ID</key>
+	<string>vehicletrackingapp-7729a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vehicletrackingapp-7729a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:627387576390:ios:9da8c0e511786c878d9a47</string>
+    <key>DATABASE_URL</key>
+    <string>https://vehicletrackingapp-7729a-default-rtdb.firebaseio.com/</string>
+	
+</dict>
+</plist>

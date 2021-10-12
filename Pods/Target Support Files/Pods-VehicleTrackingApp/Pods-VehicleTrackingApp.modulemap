@@ -1,0 +1,6 @@
+framework module Pods_VehicleTrackingApp {
+  umbrella header "Pods-VehicleTrackingApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
